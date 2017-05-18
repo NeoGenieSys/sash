@@ -1,4 +1,4 @@
-# SASH
+![sashof-logo-283x100_new](https://cloud.githubusercontent.com/assets/28767349/26189601/61270e48-3b9d-11e7-9c22-65f907f1f5b6.jpg)
 ## Simple Adaptive Streaming over HTTP
 
 ### Overview
@@ -10,7 +10,7 @@ SASH is implemented based on open standards as an alternative to the IP covered 
 ### Design Goals
 1. 100% less XML.
 2. Designed for MSE and native clients.
-3. Use the good parts of DASH. Skip the bad parts covered by the MPEG-LA DASH patent pool.
+3. Use the good parts of DASH. [Skip the bad parts covered by the MPEG-LA DASH patent pool.] (https://github.com/OpenToInnovate/sash/issues/1)
 4. One way to do things. Follow the Python approach (There should be one -- and preferably only one --obvious way to do it.) rather than the Perl approach (TMTOWTDI).
 5. Eliminate ambiguity. All client behavior should be defined. Client implementations should never guess.
 6. Usable and readable. Don't make developers think. 
